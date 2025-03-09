@@ -9,7 +9,7 @@ pub struct Props{
 pub fn Body(Props : &Props) -> Html{
     html!{
         <main class="container mx-auto max-w-6xl px-4 py-8">
-            { Props.Children.clone()}
+            { Props.children.clone()}
         </main>
     }
 }
