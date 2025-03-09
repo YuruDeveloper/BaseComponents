@@ -2,7 +2,7 @@ use yew::prelude::*;
 
 #[derive(Properties,PartialEq)]
 pub struct Props{
-    Title : String
+    pub Title : String
 }
 
 #[function_component]
