@@ -10,7 +10,7 @@ pub struct Props{
 #[function_component]
 pub fn Button(props : &Props)->Html{
     html!{
-        <a href={props.Link.clone()} class="text-gray-700 hover:text-gray-600 transition-colors flex items-center">
+        <a href={props.Link.clone()} class="text-slate-700 hover:text-slate-500 transition-colors flex items-center">
             <i class={&props.Icon}></i> {&props.Text}
         </a>
     }
